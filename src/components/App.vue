@@ -1,7 +1,7 @@
 <template> 
     <div>
         <button @click="amount++"> Click me </button>
-        The button has been clicked {{amount}} times.
+        <h3>The button has been clicked {{amount}} times.</h3>
     </div>
 </template>
 
