@@ -1,7 +1,8 @@
-import Vue from 'vue';
-import App from './components/App.vue'
+import Vue from 'vue'
+import App from './components/App'
 
-Vue.config.productionTip = false;
+// För att slippa en varning
+Vue.config.productionTip = false
 
 new Vue({
     render: h => h(App),
