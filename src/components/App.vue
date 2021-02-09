@@ -2,7 +2,7 @@
     <div>
         <button @click="amount++"> Click me </button>
         <h3>The button has been clicked {{amount}} times.</h3>
-        <p>{{passion}}</p>
+        <h4>My passion is: {{passion}}</h4>
 
         <Gif/>
     </div>
